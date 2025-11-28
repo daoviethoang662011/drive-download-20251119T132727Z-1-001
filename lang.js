@@ -77,8 +77,8 @@ const galaxyParameters = {
 
 const heartImages = [
     ...(window.dataLove2Loveloom && window.dataLove2Loveloom.data.heartImages ? window.dataLove2Loveloom.data.heartImages : []),
-    'img/anh.jpg','img/anh1.jpg','img/anh2.jpg','img/anh3.jpg',
-    'img/anh4.jpg','img/anh5.jpg','img/anh6.jpg','img/anh7.jpg','img/anh8.jpg','img/anh9.jpg','img/anh10.jpg'
+    'img/569766504_1149715377346730_7275604553343093892_n.jpg','img/582091818_1921608778711577_1194636065973664350_n.jpg','img/588569281_1034591178801601_6615627735804770559_n.jpg','img/588660426_1377924634037404_6903778532926292914_n.jpg',
+    'img/577966972_886021750436577_7202915114414956925_n.jpg','img/588306687_3892953000995153_900577519663952280_n.jpg','img/588621434_1840300849916023_3957861454163225027_n.jpg','img/588930199_800731476297061_7682837255565556792_n.jpg','img/589027180_1756058644969355_571682653427276967_n.jpg','img/590891189_821229864008430_3799527121457380429_n.jpg','img/539533290_122180964914569826_1126622990919508655_n.jpg'
 ];
 
 const numGroups = heartImages.length;
@@ -720,7 +720,7 @@ function createTextRings() {
         ctx.fillStyle = 'white';
         ctx.textAlign = 'left';
         ctx.textBaseline = 'alphabetic';
-
+        
         ctx.shadowColor = '#e0b3ff';
         ctx.shadowBlur = 24;
         ctx.lineWidth = 6;
